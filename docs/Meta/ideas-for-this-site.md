@@ -32,3 +32,5 @@
 18. [ ] dotenv
 19. [ ] online editor
 20. [ ] search
+21. [ ] add all my notes
+    1.  [ ] and sort

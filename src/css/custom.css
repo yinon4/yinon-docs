@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -5,26 +6,43 @@
  */
 
 /* You can override the default Infima variables here. */
+/* https://tailwindcss.com/docs/customizing-colors */
+
 :root {
-  --ifm-color-primary: #5cbf8f;
-  --ifm-color-primary-dark: #4d9e73;
-  --ifm-color-primary-darker: #478e6b;
-  --ifm-color-primary-darkest: #3d7a5e;
-  --ifm-color-primary-light: #6ed9a1;
-  --ifm-color-primary-lighter: #73e1a6;
-  --ifm-color-primary-lightest: #7febb2;
+  --ifm-font-family-base: 'Inter';
+  --ifm-color-primary: #f97316;
+  --ifm-color-primary-dark: #ea580c;
+  --ifm-color-primary-darker: #c2410c;
+  --ifm-color-primary-darkest: #9a3412;
+  --ifm-color-primary-light: #fb923c;
+  --ifm-color-primary-lighter: #fdba74;
+  --ifm-color-primary-lightest: #fed7aa;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #5cbf8f;
-  --ifm-color-primary-dark: #4d9e73;
-  --ifm-color-primary-darker: #478e6b;
-  --ifm-color-primary-darkest: #3d7a5e;
-  --ifm-color-primary-light: #6ed9a1;
-  --ifm-color-primary-lighter: #73e1a6;
-  --ifm-color-primary-lightest: #7febb2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  article header h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 16px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
 }

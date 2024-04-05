@@ -83,7 +83,7 @@ const config: Config = {
       title: 'Yinon Docs',
       logo: {
         alt: 'Yinon Docs Logo',
-        src: 'img/logo.svg', // TODO
+        src: 'yinons/check-doc.svg', // TODO
       },
       items: [
         {
