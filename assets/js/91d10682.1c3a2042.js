@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyinon_docs=self.webpackChunkyinon_docs||[]).push([[9036],{9123:o=>{o.exports=JSON.parse('{"permalink":"/yinon-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

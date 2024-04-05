@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyinon_docs=self.webpackChunkyinon_docs||[]).push([[2331],{9827:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/yinon-docs/blog/tags/docusaurus","allTagsPath":"/yinon-docs/blog/tags","count":4,"unlisted":false}')}}]);

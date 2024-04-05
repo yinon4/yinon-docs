@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyinon_docs=self.webpackChunkyinon_docs||[]).push([[6980],{801:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/yinon-docs/blog/tags/hello","allTagsPath":"/yinon-docs/blog/tags","count":2,"unlisted":false}')}}]);

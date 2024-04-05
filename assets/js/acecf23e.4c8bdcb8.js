@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyinon_docs=self.webpackChunkyinon_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/yinon-docs/blog","blogTitle":"Blog"}')}}]);
