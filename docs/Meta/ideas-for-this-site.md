@@ -28,4 +28,7 @@
 15. [ ] linking to other pages
 16. [x] emojis
     1. ❤🧡💛💙💜🤎💖
-17. math
+17. [x] math
+18. [ ] dotenv
+19. [ ] online editor
+20. [ ] search
