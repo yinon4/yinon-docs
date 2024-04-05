@@ -1,13 +1,16 @@
 # Ideas
 
 1. [ ] tables
-   1. [ ] sorting
-   2. [ ] filtering
-   3. [ ] sub-categories
+   1. https://theochu.com/docusaurus/sortable-tables/
+   2. [ ] sorting
+   3. [ ] filtering
+   4. [ ] sub-categories
 2. [ ] folding lists
 3. [ ] index files for each category
 4. [ ] lots of styling
 5. [ ] youtube videos
+   1. [ ] https://www.youtube.com/watch?v=W4z-YPj5ipI&list=WL&index=1
+   2. [ ] ![](https://www.youtube.com/watch?v=W4z-YPj5ipI&list=WL&index=1)
 6. [ ] running
    1. [ ] map
       1. [ ] google maps
@@ -24,4 +27,5 @@
 14. [ ] code sandbox
 15. [ ] linking to other pages
 16. [x] emojis
-    1.  ❤🧡💛💙💜🤎💖
+    1. ❤🧡💛💙💜🤎💖
+17. math
