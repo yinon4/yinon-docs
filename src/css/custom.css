@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -8,8 +11,18 @@
 /* You can override the default Infima variables here. */
 /* https://tailwindcss.com/docs/customizing-colors */
 
+/* @syntax-hue:              250;
+
+@syntax-fg:               hsl(@syntax-hue, 66%, 80%);
+@syntax-bg:               hsl(@syntax-hue, 12%, 18%);
+@syntax-accent:           hsl(@syntax-hue, 100%, 72%);
+@syntax-guide:            lighten(@syntax-bg, 8%);
+@syntax-selection:        lighten(@syntax-bg, 10%);
+@syntax-selection-gutter: lighten(@syntax-bg, 4%);
+@syntax-cursor-line:      fade(@syntax-selection, 26%); // needs to be semi-transparent to show search results */
+
 :root {
-  --ifm-font-family-base: 'Inter';
+  --ifm-font-family-base: "Inter";
   --ifm-color-primary: #f97316;
   --ifm-color-primary-dark: #ea580c;
   --ifm-color-primary-darker: #c2410c;
@@ -22,7 +35,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 

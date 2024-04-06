@@ -27,7 +27,7 @@ const config: Config = {
 
   themes: ['@docusaurus/theme-live-codeblock'],
 
-
+  plugins: [],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -83,8 +83,9 @@ const config: Config = {
       title: 'Yinon Docs',
       logo: {
         alt: 'Yinon Docs Logo',
-        src: 'yinons/check-doc.svg', // TODO
+        src: 'yinons/check-doc.svg',
       },
+      hideOnScroll: true,
       items: [
         {
           type: 'docSidebar',
@@ -146,8 +147,10 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Yinon Docs`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.duotoneDark,
+      darkTheme: prismThemes.duotoneDark,
+      defaultLanguage: 'js',
+      // additionalLanguages: ['java', 'markdown', 'ts']
     },
   } satisfies Preset.ThemeConfig,
 };
